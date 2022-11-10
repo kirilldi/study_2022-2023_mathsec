@@ -36,11 +36,11 @@ def euclidean_binary():
             if(u % 2 == 0):
                 u = u/2
             if(v % 2 == 0):
-                v = u/2
+                v = v/2
             if(u>=v):
                 u = u-v
             else:
-                v = v - u
+                v = v-u
     d = g*v
     print("НОД = ",d)
         
@@ -124,7 +124,7 @@ def euclidean_binary_extended():
 
 
 
-#euclidean()
-#euclidean_extended()
-#euclidean_binary()
-#euclidean_binary_extended()
+euclidean()
+euclidean_extended()
+euclidean_binary()
+euclidean_binary_extended()
