@@ -203,5 +203,4 @@ n = int(input("введите n: "))
 print(is_prime(n))
 
 
-
 ``` 
